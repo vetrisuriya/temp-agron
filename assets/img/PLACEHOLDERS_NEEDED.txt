@@ -1,0 +1,6 @@
+Placeholder images needed:
+- placeholder-1.jpg (featured image for post 1)
+- placeholder-2.jpg (featured image for post 2)
+- placeholder-3.jpg (featured image for post 3)
+
+You can use any images from the theme or add your own.
