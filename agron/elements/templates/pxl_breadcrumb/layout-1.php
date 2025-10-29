@@ -1,1 +1,0 @@
-<?php agron()->page->get_breadcrumb(); ?>

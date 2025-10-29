@@ -1,5 +1,0 @@
-<?php
-/**
- * @package Case-Themes
- */
-?>
