@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Contact Us - Agron</title>
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="page">
+    <div id="pxl-wrapper" class="pxl-wrapper">
+        <header id="pxl-header-default" class="pxl-header">
+            <div class="container">
+                <div class="pxl-header-inner">
+                    <div class="pxl-header-logo"><a href="index.html"><img src="assets/img/logo.png" alt="Agron"/></a></div>
+                    <nav><ul class="pxl-menu-primary"><li><a href="index.html"><span>Home</span></a></li><li><a href="about.html"><span>About</span></a></li><li><a href="services.html"><span>Services</span></a></li><li><a href="archive.html"><span>Blog</span></a></li><li class="current-menu-item"><a href="contact.html"><span>Contact</span></a></li></ul></nav>
+                </div>
+            </div>
+        </header>
+        <main id="pxl-main">
+            <div class="container" style="padding: 60px 0;">
+                <h1 style="font-size: 48px; margin-bottom: 24px;">Contact Us</h1>
+                <p style="font-size: 18px; color: #666; margin-bottom: 40px;">Get in touch with us for any inquiries or questions.</p>
+                <!-- FORM NOTE: This form requires a backend server to process. The action attribute points to a server endpoint that needs to be implemented. -->
+                <form method="post" action="/wp-admin/admin-ajax.php" class="contact-form" style="max-width: 600px;">
+                    <div style="margin-bottom: 20px;">
+                        <label style="display: block; margin-bottom: 8px; font-weight: 600;">Name</label>
+                        <input type="text" name="name" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px;">
+                    </div>
+                    <div style="margin-bottom: 20px;">
+                        <label style="display: block; margin-bottom: 8px; font-weight: 600;">Email</label>
+                        <input type="email" name="email" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px;">
+                    </div>
+                    <div style="margin-bottom: 20px;">
+                        <label style="display: block; margin-bottom: 8px; font-weight: 600;">Message</label>
+                        <textarea name="message" rows="6" required style="width: 100%; padding: 12px; border: 1px solid #ddd; border-radius: 4px;"></textarea>
+                    </div>
+                    <button type="submit" style="padding: 12px 32px; background: #4CAF50; color: white; border: none; border-radius: 4px; cursor: pointer;">Send Message</button>
+                </form>
+            </div>
+        </main>
+        <footer style="background: #2c2c2c; color: #fff; padding: 40px 0;">
+            <div class="container"><p style="text-align: center;">2025 © All rights reserved by <a href="https://themeforest.net/user/case-themes/portfolio" style="color: #4CAF50;">Case-Themes</a></p></div>
+        </footer>
+    </div>
+    <script src="assets/js/menu.js"></script>
+    <script src="assets/js/theme.js"></script>
+</body>
+</html>
